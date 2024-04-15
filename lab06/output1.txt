@@ -1,0 +1,31 @@
+max element : 8 deleted
+max element : 10 deleted
+push error : heap is full
+push error : heap is full
+max element : 15 deleted
+max element : 13 deleted
+9 7 5 6 2 1 4 3 
+max element : 9 deleted
+max element : 7 deleted
+6 4 5 3 2 1 
+max element : 6 deleted
+max element : 5 deleted
+4 3 1 2 
+push error : 1 is already in the heap
+32 24 23 19 3 1 11 2 4 
+max element : 32 deleted
+max element : 24 deleted
+max element : 23 deleted
+19 4 11 2 3 1 
+max element : 19 deleted
+max element : 11 deleted
+max element : 4 deleted
+3 2 1 
+max element : 3 deleted
+2 1 
+max element : 2 deleted
+max element : 1 deleted
+pop error : heap is empty
+pop error : heap is empty
+pop error : heap is empty
+print error : heap is empty
