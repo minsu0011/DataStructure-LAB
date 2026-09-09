@@ -1,1 +1,14 @@
-#Data Structure Class LAB with C
+# Data Structure Labs
+C로 기본 자료구조와 탐색·정렬을 직접 구현한 실습 기록입니다. `lab05`부터 `lab11`까지 과제 흐름을 유지하며 하나의 제품 API로 포장하지 않습니다.
+
+## 구조와 학습
+`lab05/BST.c`와 같은 개별 구현을 중심으로 노드 연결, 탐색 경계, 메모리 소유권을 살펴볼 수 있습니다. 모든 과제의 소스 위치는 [인덱스](docs/source-index.csv)에 있습니다. 실습별 입력 형식과 main이 독립적이므로 한 번에 모든 C 파일을 링크하지 마세요.
+
+## 실행
+C compiler로 원하는 실습 파일을 개별 컴파일하고 파일에 정의된 입력을 공급합니다. 예: `gcc lab05/BST.c -o bst`. 플랫폼별 경고와 입출력 파일명은 확인이 필요합니다.
+
+## 검증 및 한계
+이번 환경에는 C compiler가 없어 native 실행 및 메모리 sanitizer 검증을 완료하지 못했습니다. 파일·구조 확인은 runtime PASS와 구분합니다. 과거 과제 제출 여부만으로 전체 코드의 정답성이나 누수 부재를 보증하지 않습니다.
+
+학생 작성 source를 보존하며 IDE 설정·중간 binary는 게시 대상에서 제외합니다. 과제 starter/문제의 저작권은 원저작자에게 있습니다. [구현 노트](docs/implementation.md)를 참고하세요.
+
