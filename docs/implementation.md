@@ -1,4 +1,5 @@
-# Reading the labs
-각 C source의 struct, insert/delete/search 경로, malloc/free 수명과 입력 처리부터 확인하세요. lab05 BST 구현에서 시작해 다른 lab의 자료구조로 이동하는 방식으로 source-index를 구성했습니다.
-시간복잡도는 실제 구현의 worst case와 입력 구조에 따라 달라집니다. BST라고 해서 balance나 O(log n)을 보장하지 않습니다. Native toolchain 부재로 ASan/Valgrind 및 executable regression은 미실행입니다.
+# 실습 코드를 읽는 순서
 
+각 C 파일의 자료구조 정의, 삽입·삭제·탐색, 메모리 할당·해제, 입력 처리 순서로 읽습니다. `lab05`의 BST에서 시작해 AVL의 회전, 힙과 그래프의 연결로 확장할 수 있습니다.
+
+BST는 균형을 자동 보장하지 않습니다. 편향된 입력에서는 높이가 선형으로 늘 수 있으므로 평균적인 탐색과 최악의 경우를 나눠 봅니다. 빈 입력·중복 키·마지막 노드 삭제는 별도로 확인할 경계입니다.
